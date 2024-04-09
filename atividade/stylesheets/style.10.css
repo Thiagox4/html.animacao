@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.filho {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    animation: mover 4s forwards;
+}
+
+@keyframes mover {
+    0% {
+        width: 200px;
+        height: 200px;
+        transform: translate(0, 0);
+    }
+    100% {
+        width: 70px;
+        height: 70px;
+        transform: translate(-50vw, -50vh);
+    }
+}

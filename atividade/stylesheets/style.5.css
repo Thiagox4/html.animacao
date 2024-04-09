@@ -1,0 +1,35 @@
+.pai {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.filho {
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+    background: coral;
+
+
+}
+
+.filho {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(47, 0, 255);
+    animation: girar 3s linear 1;
+}
+  
+    
+
+@keyframes girar {
+    0% {
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    100% {
+        transform: translate(0%, 0%) rotate(45deg);
+    }
+ 
+    }

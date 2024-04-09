@@ -1,0 +1,16 @@
+.pai{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.filho{
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+    background-color: rgb(23, 45, 238);
+    
+
+}

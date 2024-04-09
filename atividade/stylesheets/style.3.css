@@ -1,0 +1,34 @@
+.pai {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.filho {
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+    background: coral;
+    border-radius: 100px;
+ 
+}
+
+.filho:hover{
+    animation: cores 6s infinite;
+    transition: 5s;
+}
+
+
+@keyframes cores{
+    0% {
+
+        background-color: coral;
+    }
+
+    100% {
+
+        background-color: rgb(9, 255, 0);
+    }
+}
